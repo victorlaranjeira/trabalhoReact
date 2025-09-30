@@ -3,7 +3,7 @@ function Footer(props) {
   return (
     <>
       <div>
-        <footer>
+        <footer className="rodape">
           <p>Disciplina: {props.nomeDaDisciplina}</p>
           <p>Curso: {props.nomeDoCurso}</p>
         </footer>
