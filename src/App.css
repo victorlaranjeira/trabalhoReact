@@ -12,29 +12,49 @@
 
 .content{
   flex-grow: 1;
+  padding: 0 10px;
+}
+
+ul{
+  padding: 20px
 }
 
 
-header{
-  /*position: fixed;
-  top: 0;
-  left: 0;*/
-  width: 100%;
+.cabecalho{
+  
   background-color: #282c34;
   padding: 20px;
   color: wheat;
   
 }
 
-header h1{
+.cabecalho h1{
   color: wheat;
   font-size: 2rem;
 }
 
+.lista-container{
+  display: flex;
+  
+}
+
+ul li{
+  width: 100%;
+  padding: 5px;
+  border: #282c34 solid 1px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.lista-alunos:hover{
+  
+  font-size: 18px;
+  cursor: pointer;
+}
+
 
 .rodape{
-  left:0;
-  width: 100%;
   background-color: #282c34;
   color: wheat;
   padding: 10px 0;
