@@ -1,7 +1,16 @@
-
 # trabalhoReact
 
 estou Fazendo meu primeiro trabalho React
 
-##
-adicionei listas de alunos e ajustei o cabealho e rodapé
+## Aluno
+
+Victor Barros Laranjeira - 01825351
+
+## Tecnologias usadas
+
+- Node
+- Vite
+- Git
+- HTML
+- CSS
+- JavaScript
